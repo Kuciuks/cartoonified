@@ -1,4 +1,5 @@
-.header{
+.header-container{
     position: absolute;
     width: 100dvw;
+    background-color: aquamarine;
 }

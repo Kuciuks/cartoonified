@@ -3,9 +3,9 @@ import '../../Styles/hero.css'
 
 const Hero = () => {
   return (
-    <div className='section'>
+    <div className='section hero-section'>
         <div className='hero-text'>
-            text
+            text1
         </div>
         <div className='hero-image'>
             text2
