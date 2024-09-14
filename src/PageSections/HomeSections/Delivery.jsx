@@ -2,7 +2,7 @@ import React from 'react'
 
 const Delivery = () => {
   return (
-    <div>Delivery</div>
+    <div className='section'>Delivery</div>
   )
 }
 
