@@ -1,5 +1,50 @@
 .header-container{
-    position: absolute;
-    width: 100dvw;
-    background-color: aquamarine;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(32, 211, 151);
+}
+.nav-container{
+    width: inherit;
+    height: inherit;
+}
+.nav-ul{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.homepage-btn,.aboutpage-btn,.contactpage-btn,.deliverypage-btn{
+    width: 6em;
+    height: 2em;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: .70em;
+}
+
+.hide{
+    animation: hide-anim 1s linear forwards
+}
+.unhide{
+    animation: unhide-anim 1s linear forwards
+}
+
+@keyframes hide-anim {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
+@keyframes unhide-anim{
+    0%{
+        transform: translateY(-300px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }

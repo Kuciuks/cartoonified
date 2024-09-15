@@ -1,7 +1,6 @@
 .hero-text, .hero-image{
     width: 90dvw;
     height: 43vh;
-    margin: 0px 10px;
     background-color: orangered;
 }
 .hero-text{
