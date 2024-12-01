@@ -6,7 +6,7 @@ const Delivery = () => {
     <div className='section delivery-container'>
 
       <div className='delivery-header'>
-        <h2>Delivery Text</h2>
+        <div className='delivery-header-text'>Delivery Header</div>
       </div>
 
       <div className='delivery-multiple-img'>
