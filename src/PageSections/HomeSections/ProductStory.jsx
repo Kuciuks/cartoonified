@@ -3,10 +3,10 @@ import '../../Styles/productstory.css'
 
 const ProductStory = () => {
   return (
-    <div className='section story_container'>
-      <div className='text'>a</div>
-      <div className='text'>b</div>
-      <div className='text'>c</div>
+    <div className='section story-container'>
+      <div className='story-text'>a</div>
+      <div className='story-text'>b</div>
+      <div className='story-text'>c</div>
 
     </div>
   )

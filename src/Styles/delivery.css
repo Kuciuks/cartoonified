@@ -1,0 +1,41 @@
+.delivery-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-header{
+    background-color: rgb(60, 208, 75);
+    width: 90dvw;
+    height: 43vh;
+}
+
+.delivery-multiple-img{
+    background-color: rgb(32, 26, 199);
+    width: 90dvw;
+    height: 43vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img{
+    background-color: cadetblue;
+    width: 20%;
+    height: 40%;
+}
+
+.delivery-footer{
+    background-color: rgb(179, 20, 89);
+    width: 90dvw;
+    height: 43vh;
+}
+
+.delivery-text{
+    background-color: rgb(192, 192, 32);
+    width: 90dvw;
+    height: 12vh;
+    border: 1px solid black
+}
