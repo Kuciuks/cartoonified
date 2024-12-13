@@ -1,3 +1,10 @@
 .homepage{
-    width: inherit; 
+    width: inherit;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-content-limiter{
+    width: 90%; /* CHANGE THIS VALUE FOR OTHER SCREEN TYPES */
 }

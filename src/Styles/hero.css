@@ -4,11 +4,12 @@
     background-color: orangered;
 }
 .hero-text{
-    margin-bottom: 10px;
+    width: 60%;
+    height: 20%;
 }
 .hero-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }

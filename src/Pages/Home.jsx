@@ -8,10 +8,12 @@ import '../Styles/homepage.css'
 const Home = () => {
   return (
     <div className='homepage'>
-      <Hero/>
-      <ProductCatalog/>
-      <ProductStory/>
-      <Delivery/>
+      <div className='homepage-content-limiter'>
+        <Hero/>
+        <ProductCatalog/>
+        <ProductStory/>
+        <Delivery/>
+      </div>
     </div>
   )
 }
