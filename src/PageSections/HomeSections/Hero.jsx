@@ -5,10 +5,14 @@ const Hero = () => {
   return (
     <div className='section hero-section'>
         <div className='hero-text'>
-            text1
+          <div>
+            <h1>Have You Ever Been Cartoonified?</h1>
+          </div>
         </div>
         <div className='hero-image'>
-            text2
+            <picture>
+              <img src='D:\Main\projects\cartoonified\src\assets\cat_placeholder.png'/>
+            </picture>
         </div>
         <div className='swipe'>Swipe</div>
     </div>
