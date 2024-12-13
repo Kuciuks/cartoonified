@@ -4,12 +4,24 @@
     background-color: orangered;
 }
 .hero-text{
-    width: 60%;
+    width: 85%;
     height: 20%;
+    margin-bottom: 20px;
+}
+.hero-image{
+    width: 95%;
+    height: 45%;
 }
 .hero-section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;  /* CHANGE TO "ROW" FOR OTHER SCREEN TYPES EXCEPT PHONES */
     align-items: center;
     justify-content: center;
+}
+
+.swipe{
+    position:relative;
+    top: 75px;
+    width: 85%;
+    background-color:yellow;
 }

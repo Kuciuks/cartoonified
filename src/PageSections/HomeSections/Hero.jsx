@@ -10,6 +10,7 @@ const Hero = () => {
         <div className='hero-image'>
             text2
         </div>
+        <div className='swipe'>Swipe</div>
     </div>
   )
 }
