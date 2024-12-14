@@ -10,8 +10,8 @@ const Hero = () => {
           </div>
         </div>
         <div className='hero-image'>
-            <picture>
-              <img src='D:\Main\projects\cartoonified\src\assets\cat_placeholder.png'/>
+            <picture className='picture-container'>
+              <img className='img' src='D:\Main\projects\cartoonified\src\assets\cat_placeholder.png'/>
             </picture>
         </div>
         <div className='swipe'>Swipe</div>

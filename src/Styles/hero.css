@@ -7,6 +7,7 @@
     width: 85%;
     height: 20%;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 .hero-image{
     width: 95%;
@@ -21,7 +22,16 @@
 
 .swipe{
     position:relative;
-    top: 75px;
+    top: 35px;
     width: 85%;
+    height: 10%;
     background-color:yellow;
+}
+
+.picture-container{
+
+}
+
+.img{
+
 }
