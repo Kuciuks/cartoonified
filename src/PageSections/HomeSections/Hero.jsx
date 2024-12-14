@@ -10,9 +10,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='hero-image'>
-            <picture className='picture-container'>
-              <img className='img' src='D:\Main\projects\cartoonified\src\assets\cat_placeholder.png'/>
-            </picture>
+          <img className='hero-img-1' src='https://images.rawpixel.com/image_social_portrait/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djYmZwcjlmcjYtaW1hZ2UuanBn.jpg'/>
         </div>
         <div className='swipe'>Swipe</div>
     </div>
