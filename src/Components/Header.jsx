@@ -30,7 +30,9 @@ const header = () => {
   return (
     <div className='header-container' id='header'>
       <nav className='nav-container'>
-        <div className='homepage-btn'>Home</div>
+        <ul className='nav-ul-home'>
+          <li className='homepage-btn'>Home</li>
+        </ul>
         <ul className='nav-ul'>
           <li className='aboutpage-btn'>About</li>
           <li className='contactpage-btn'>Contact</li>
