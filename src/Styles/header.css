@@ -1,7 +1,7 @@
 .header-container{
     position: fixed;
     width: 100%;
-    background-color: rgb(32, 211, 151);
+    /* background-color: rgb(32, 211, 151); */
 }
 .nav-container{
     width: inherit;
@@ -18,7 +18,7 @@
     flex-direction: row;
     justify-content: right;
     list-style-type: none;
-    background-color: rgb(76, 50, 192);
+    /* background-color: rgb(76, 50, 192); */
     width: 70%;
 }
 
@@ -27,7 +27,7 @@
     justify-content: center;
     align-self: center;
     list-style-type: none;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 30%;
     padding: 7.5px;
 
@@ -37,7 +37,8 @@
     border-radius: 50px;
     width: 4em;
     height: 4em;
-    background-color: rgb(164, 219, 34);
+    background-color: aliceblue;
+    border: 1px solid black;
     display: inherit;
     justify-content: center;
     align-items: center;
