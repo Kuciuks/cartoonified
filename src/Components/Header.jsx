@@ -30,11 +30,11 @@ const header = () => {
   return (
     <div className='header-container' id='header'>
       <nav className='nav-container'>
+        <div className='homepage-btn'>Home</div>
         <ul className='nav-ul'>
-          <li className='homepage-btn'>Home</li>
           <li className='aboutpage-btn'>About</li>
           <li className='contactpage-btn'>Contact</li>
-          <li className='deliverypage-btn'>Delivery</li>
+          <li className='catalogpage-btn'>Catalog</li>
         </ul>
       </nav>
     </div>
