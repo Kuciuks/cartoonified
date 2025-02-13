@@ -36,9 +36,9 @@
 
 .homepage-btn{
     border-radius: 50px;
-    width: 4em;
-    height: 4em;
-    background-color: aliceblue;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: #D8D9D8;
     border: 1px solid black;
     display: inherit;
     justify-content: center;
@@ -47,8 +47,8 @@
 
 .aboutpage-btn,.contactpage-btn,.catalogpage-btn{
     width: 4.75em;
-    height: 2.55em;
-    background-color: aliceblue;
+    height: 2.15em;
+    background-color: #D8D9D8;
     margin-right: 10px;
     border-radius: 4px;
     border: 1px solid black;
