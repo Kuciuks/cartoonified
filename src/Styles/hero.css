@@ -26,13 +26,38 @@
     display: flex;
     flex-direction: column;  /* CHANGE TO "ROW" FOR OTHER SCREEN TYPES EXCEPT PHONES */
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .product-showcase-container{
-    background-color: aqua;
+    background-color: #D8D9D8;
     height: 80%;
     display: inherit;
     flex-direction: inherit;
     align-items: inherit;
     justify-content: inherit;
+}
+.product-showcase{
+    display: inherit;
+    flex-direction: row;
+    justify-content: inherit;
+    align-items: inherit;
+    height: 45%;
+    background-color: aqua;
+    position: relative;
+}
+
+.showcase{
+    
+    width: 100px;
+    height: 100px;
+}
+
+.showcase-1{
+    background-color: aquamarine;
+}.showcase-2{
+    background-color: rgb(127, 157, 255);
+}.showcase-3{
+    background-color: rgb(255, 127, 191);
+}.showcase-4{
+    background-color: rgb(200, 255, 127);
 }
