@@ -37,21 +37,24 @@
     justify-content: inherit;
 }
 .product-showcase{
-    display: inherit;
-    flex-direction: row;
-    justify-content: inherit;
-    align-items: inherit;
     height: 45%;
-    background-color: aqua;
-    position: relative;
+    width: 90%;
 }
 
+.product-showcase>ul{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .showcase{
+    position: absolute;
+    width: 90vw;
     
-    width: 100px;
-    height: 100px;
 }
-
 .showcase-1{
     background-color: aquamarine;
 }.showcase-2{
