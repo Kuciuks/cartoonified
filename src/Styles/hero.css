@@ -1,4 +1,4 @@
-.hero-text, .hero-image{
+.hero-text{
     width: 90dvw;
     height: 43vh;
     background-color: #D8D9D8;
@@ -12,7 +12,6 @@
 .hero-image{
     width: 90%;
     height: 45%;
-    position: relative;
 }
 .hero-img-1{
     object-fit:cover;
@@ -39,21 +38,16 @@
 .product-showcase{
     height: 45%;
     width: 90%;
+    background-color: antiquewhite;
+    overflow: hidden;
+    display: flex;
+    
 }
 
-.product-showcase>ul{
-    height: 100%;
-    width: 100%;
-    background-color: antiquewhite;
-    overflow: scroll;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .showcase{
-    position: absolute;
-    width: 90vw;
-    
+    width: 300px;
+    height: 100%;    
+    flex-shrink: 0;
 }
 .showcase-1{
     background-color: aquamarine;

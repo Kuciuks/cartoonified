@@ -1,5 +1,20 @@
 import React from 'react'
 import '../../Styles/hero.css'
+import placeholder from '../../assets/image.png'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const Hero = () => {
   return (
@@ -11,15 +26,13 @@ const Hero = () => {
         </div>
         <div className='product-showcase-container'>
           <div className='hero-image'>
-            <img className='hero-img-1' src='https://images.rawpixel.com/image_social_portrait/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djYmZwcjlmcjYtaW1hZ2UuanBn.jpg'/>
+            <img className='hero-img-1' src={placeholder}/>
           </div>
           <div className='product-showcase'>
-            <ul>
-              <li className='showcase showcase-1'>1</li>
-              <li className='showcase showcase-2'>2</li>
-              <li className='showcase showcase-3'>3</li>
-              <li className='showcase showcase-4'>4</li>
-            </ul>
+              <div className='showcase showcase-1'>1</div>
+              <div className='showcase showcase-2'>2</div>
+              <div className='showcase showcase-3'>3</div>
+              <div className='showcase showcase-4'>4</div>
           </div>
           
         </div>
