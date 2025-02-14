@@ -1,18 +1,32 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../../Styles/hero.css'
 import placeholder from '../../assets/image.png'
 
 const Hero = () => {
 
-  //store showcase elements (product pictures) in a useState hook
-  const [showcase, setShowcase] = useState([])
+  //used to store the state if which showcase is being showned at the moment
+  const [showcase, setShowcase] = useState(0)
 
-  //grab the showcase elements when they mount the DOM
-  useEffect(() => {
-    setShowcase(document.querySelectorAll('.showcase'))
-  }, []);
+  //used to store the showcase elements
+  const [elements,setElements] = useState([])
 
-  
+  //grab showcase elements one they mount DOM
+  useEffect(()=>{
+    const elements = document.querySelectorAll('.showcase')
+    setElements(elements)
+  },[])
+
+
+  const moveShowcase = () => {
+    
+
+
+
+
+    setTimeout(() => {
+      
+    }, 3000);
+  }
 
 
 
