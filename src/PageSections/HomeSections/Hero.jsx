@@ -1,22 +1,28 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import '../../Styles/hero.css'
 import placeholder from '../../assets/image.png'
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const Hero = () => {
+
+  //store showcase elements (product pictures) in a useState hook
+  const [showcase, setShowcase] = useState([])
+
+  //grab the showcase elements when they mount the DOM
+  useEffect(() => {
+    setShowcase(document.querySelectorAll('.showcase'))
+  }, []);
+
+  
+
+
+
+
+
+
+
+
+
+
   return (
     <div className='section hero-section'>
         <div className='hero-text'>
