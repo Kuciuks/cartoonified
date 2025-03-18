@@ -34,7 +34,7 @@
 }
 
 .pic{
-    width: 60dvw;
+    width: 70dvw;
     height: 80%;
     background-color: rgb(85, 77, 112);
     border: 3px solid black;
@@ -52,4 +52,8 @@
     display: block;
     text-align: center;
     font-size: small;
+}
+
+.gap{
+    width: 10dvw;
 }

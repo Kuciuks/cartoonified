@@ -8,6 +8,7 @@ const ProductCatalog = () => {
         <div className='pic pic-container-1'>
           <div className='star'><img /></div>
         </div>
+        <span className='gap'></span>
         <div className='txt text-1'>
           <span className='product-name-text'>Product Name</span>
           <span className='product-desc-text'>The description of the product</span>
@@ -19,6 +20,7 @@ const ProductCatalog = () => {
           <span className='product-name-text'>Product Name</span>
           <span className='product-desc-text'>The description of the product</span>
         </div>
+        <span className='gap'></span>
         <div className='pic pic-container-2'>
           <div className='star'><img /></div>
         </div>
@@ -28,6 +30,7 @@ const ProductCatalog = () => {
         <div className='pic pic-container-3'>
           <div className='star'><img /></div>
         </div>
+        <span className='gap'></span>
         <div className='txt text-3'>
           <span className='product-name-text'>Product Name</span>
           <span className='product-desc-text'>The description of the product</span>
@@ -39,6 +42,7 @@ const ProductCatalog = () => {
           <span className='product-name-text'>Product Name</span>
           <span className='product-desc-text'>The description of the product</span>
         </div>
+        <span className='gap'></span>
         <div className='pic pic-container-4'>
           <div className='star'><img /></div>
         </div>
