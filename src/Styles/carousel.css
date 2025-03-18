@@ -69,20 +69,20 @@
 }
 
 .star-container-1{
-    left: 45dvw;
-    bottom: 4.25dvh;
+    left: 40dvw;
+    bottom: 3.25dvh;
     animation: shake-star 5s linear infinite;
 }.star-container-2{
     right: 5dvw;
-    bottom: 4.25dvh;
+    bottom: 3dvh;
     animation: shake-star 4.5s linear infinite;
 }.star-container-3{
-    left: 45dvw;
-    bottom: 4.25dvh;
+    left: 40dvw;
+    bottom: 3.25dvh;
     animation: shake-star 6.5s linear infinite;
 }.star-container-4{
     right: 5dvw;
-    bottom: 4.25dvh;
+    bottom: 3dvh;
     animation: shake-star 5.5s linear infinite;
 }
 
