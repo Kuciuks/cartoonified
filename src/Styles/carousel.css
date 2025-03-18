@@ -25,7 +25,7 @@
 }
 
 .txt{
-    width: 40dvw;
+    width: 40%;
     height: 100%;
     background-color: antiquewhite;
     display: flex;
@@ -34,7 +34,7 @@
 }
 
 .pic{
-    width: 100dvw;
+    width: 60%;
     height: 100%;
     background-color: rgb(85, 77, 112);
     border: 3px solid black;
@@ -55,21 +55,29 @@
     font-size: small;
 }
 
-.gap{
+.star-img{
     width: 10dvw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+    position: relative;
 }
 
-.star-img{
-    width: 12dvw;
-    position: relative;
+.strimg-1,.strimg-3{
     top:calc(0% - 47%);
     left:calc(0dvw - 6.5dvw);
+}.strimg-2,.strimg-4{
+    top:calc(0% - 47%);
+    left:calc(0dvw + 6.5dvw);
+}
+
+.strimg-1{
+    animation: shake-star 4.5s linear infinite;
+}.strimg-2{
+    animation: shake-star 6s linear infinite;
+}.strimg-3{
+    animation: shake-star 5.5s linear infinite;
+}.strimg-4{
     animation: shake-star 5.5s linear infinite;
 }
+
 
 @keyframes shake-star {
     0%{

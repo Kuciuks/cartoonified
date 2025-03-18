@@ -12,7 +12,7 @@ const ProductCatalog = () => {
           <img/>
         </div>
 
-        <img className='star-img' src={starpic}/>
+        <img className='strimg-1 star-img' src={starpic}/>
 
         <div className='txt text-1'>
           <span className='product-name-text'>Product Name</span>
@@ -27,7 +27,7 @@ const ProductCatalog = () => {
           <span className='product-desc-text'>The description of the product</span>
         </div>
 
-        <span className='gap'></span>
+        <img className='strimg-2 star-img' src={starpic}/>
 
         <div className='pic pic-container-2'>
           <img/>
@@ -39,10 +39,10 @@ const ProductCatalog = () => {
         <div className='pic pic-container-3'>
           <img/>
         </div>
-        <span className='gap'></span>
+
+        <img className='strimg-3 star-img' src={starpic}/>
 
         <div className='txt text-3'>
-
           <span className='product-name-text'>Product Name</span>
           <span className='product-desc-text'>The description of the product</span>
         </div>
@@ -55,7 +55,7 @@ const ProductCatalog = () => {
           <span className='product-desc-text'>The description of the product</span>
         </div>
 
-        <span className='gap'></span>
+        <img className='strimg-4 star-img' src={starpic}/>
 
         <div className='pic pic-container-4'>
           <img/>
