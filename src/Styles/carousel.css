@@ -28,10 +28,28 @@
     width: 40dvw;
     height: 80%;
     background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .pic{
     width: 60dvw;
     height: 80%;
-    background-color: aqua;
+    background-color: rgb(85, 77, 112);
+    border: 3px solid black;
+}
+
+.product-name-text{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    font-size: large;
+}
+
+.product-desc-text{
+    background-color: rgb(94, 118, 226);
+    display: block;
+    text-align: center;
+    font-size: small;
 }
