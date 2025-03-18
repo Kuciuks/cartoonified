@@ -8,7 +8,7 @@
     background-color: aliceblue;
     width: 100%;
     height: 25%;
-    padding: 1em;
+    padding: 2em 1em;
     border: 1px solid red;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@
 
 .txt{
     width: 40dvw;
-    height: 80%;
+    height: 100%;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
@@ -34,8 +34,8 @@
 }
 
 .pic{
-    width: 70dvw;
-    height: 80%;
+    width: 100dvw;
+    height: 100%;
     background-color: rgb(85, 77, 112);
     border: 3px solid black;
     display: flex;
@@ -63,39 +63,11 @@
     justify-content: start;
 }
 
-.star-cont{
-    /* background-color: rgb(129, 88, 34); */
-    width: 10%;
-    position: relative;
-}
-
 .star-img{
-    object-fit:contain;
-    display: relative;
-    left: 100px;
-}
-
-.product-pic{
-    width: 100%;
-    height: 100%;
-    background-color: aquamarine;
-}
-
-.star-container-1{
-    left: 40dvw;
-    bottom: 3.25dvh;
-    animation: shake-star 5s linear infinite;
-}.star-container-2{
-    right: 5dvw;
-    bottom: 3dvh;
-    animation: shake-star 4.5s linear infinite;
-}.star-container-3{
-    left: 40dvw;
-    bottom: 3.25dvh;
-    animation: shake-star 6.5s linear infinite;
-}.star-container-4{
-    right: 5dvw;
-    bottom: 3dvh;
+    width: 12dvw;
+    position: relative;
+    top:calc(0% - 47%);
+    left:calc(0dvw - 6.5dvw);
     animation: shake-star 5.5s linear infinite;
 }
 
