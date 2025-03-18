@@ -24,9 +24,14 @@
     justify-content:flex-end;
 }
 
+.txt{
+    width: 40dvw;
+    height: 80%;
+    background-color: antiquewhite;
+}
 
 .pic{
-    width: 80%;
-    height: 75%;
+    width: 60dvw;
+    height: 80%;
     background-color: aqua;
 }
