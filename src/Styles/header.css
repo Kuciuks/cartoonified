@@ -1,7 +1,8 @@
 .header-container{
     position: fixed;
     width: 100%;
-    /* background-color: rgb(32, 211, 151); */
+    background-color: #535352;
+    opacity: .6;
 }
 .nav-container{
     width: inherit;

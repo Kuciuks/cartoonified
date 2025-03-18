@@ -3,11 +3,17 @@ import '../../Styles/carousel.css'
 const ProductCatalog = () => {
   return (
     <div className='section catalog-container'>
-      <div className='carousel-text'>text</div>
-      <div className='carousel'>
-        <div>-</div>
-        <div>carousel</div>
-        <div>+</div>
+      <div className='item item-1'>
+        <div className='pic pic-container-1'></div>
+      </div>
+      <div className='item item-2'>
+        <div className='pic pic-container-2'></div>
+      </div>
+      <div className='item item-3'>
+        <div className='pic pic-container-3'></div>
+      </div>
+      <div className='item item-4'>
+        <div className='pic pic-container-4'></div>
       </div>
       
     </div>
