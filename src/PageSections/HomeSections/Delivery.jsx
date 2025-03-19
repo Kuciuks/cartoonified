@@ -18,7 +18,7 @@ const Delivery = () => {
           <span className='btn-txt'>Select and upload your picture(s) here</span>
         </div>
         <div className='more-instructions'>
-          <span className='ins-blt-txt-5'></span>
+          <span className='ins-blt-txt-5'>Let us know what you want us to change or remove. Being as detailed and giving the most context helps us deliver the best version of the product. For example explain what is happening in the picture, what is the occasion for your order - birthday, etc.</span>
           <img className='ins-image'/>
         </div>
       </div>

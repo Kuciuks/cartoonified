@@ -21,4 +21,27 @@
     width: 70dvw;
 }
 
+ .upload{
+    display: inherit;
+    justify-content: space-between;
+    background-color: rgb(102, 102, 102);
+    width: 80%;
+ }
 
+ .more-instructions{
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(102, 102, 102);
+    width: 80%;
+ }
+
+ .ins-blt{
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(102, 102, 102);
+    width: 80%;
+ }
