@@ -1,13 +1,28 @@
-.story-container{
+.how-to-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    
+    padding: 2em;
 }
 
-.story-text{
+.ht{
     background-color: rgb(187, 187, 24);
-    width: 90dvw;
-    height: 15vh;
+    width: 100dvw;
     border: 1px solid black;
+}
+
+.how-to-1{
+    height: 20%;
+    padding-bottom:0em 1em;
+}
+
+.how-to-2{
+    height: 40%;
+    padding-bottom:0em 1em;
+}
+
+.how-to-3{
+    height: 30%;
 }
