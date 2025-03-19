@@ -12,9 +12,9 @@ const ProductStory = () => {
         <span className='htxt ht-txt-4'>Amd a description for adjustments</span>
       </div>
       <div className='ht how-to-3'>
-        <span></span>
-        <img/>
-        <span></span>
+        <span className='img-txt-1'>Next, we let our artists do the magic!</span>
+        <img className='txt-image'/>
+        <span className='img-txt-2'>All hand-drawn with no Artificial sweeteners used!</span>
       </div>
 
     </div>

@@ -11,10 +11,14 @@
     background-color: rgb(187, 187, 24);
     width: 100dvw;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .how-to-1{
-    height: 20%;
+    height: 15%;
     padding-bottom:0em 1em;
 }
 
@@ -24,5 +28,15 @@
 }
 
 .how-to-3{
-    height: 30%;
+    height: 34%;
+}
+
+.htxt{
+    background-color: aliceblue;
+}
+
+.txt-image{
+    width:70dvw;
+    height: 80%;
+    background-color: aliceblue;
 }
