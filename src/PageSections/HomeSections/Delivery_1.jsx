@@ -4,7 +4,6 @@ import '../../Styles/delivery_1.css'
 const Delivery_1 = () => {
   return (
     <div className='section order-container'>
-      <div className='instruction-header'>Unallocated space</div>
       <div className='instructions'>
         <span>Make your selections!</span>
         
