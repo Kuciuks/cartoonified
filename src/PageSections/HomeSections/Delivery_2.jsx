@@ -1,10 +1,9 @@
 import React from 'react'
-import '../../Styles/delivery_1.css'
+import '../../Styles/delivery_2.css'
 
-const Delivery_1 = () => {
+const Delivery_2 = () => {
   return (
     <div className='section order-container'>
-      <div className='instruction-header'>Unallocated space</div>
       <div className='instructions'>
         <span>Make your selections!</span>
         
@@ -13,4 +12,4 @@ const Delivery_1 = () => {
   )
 }
 
-export default Delivery_1
+export default Delivery_2
