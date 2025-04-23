@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../Styles/delivery_1.css'
 
+
 const Delivery_1 = () => {
   return (
     <div className='section order-container'>
