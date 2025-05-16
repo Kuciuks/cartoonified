@@ -24,9 +24,40 @@ const Home = () => {
 
   const DeliveryComponent = page_list[indexState]
 
+
+  const handleCheckout = ()=>{
+
+
+    fetch('https:/checkout-session',{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json'
+      },
+      body: JSON.stringify({
+        items:[
+          {id:1, quantity:3},
+          {id:2, quantity:10}
+        ]
+      })
+    })
+    .then(res =>{
+      if (res.ok) return res.json()
+      //if res.ok is not ok
+      return res.json().then(e=>{Promise.reject})
+    }).then(({url}) => {
+      window.location = url
+    }).catch(e=>{
+      console.log(e)
+    })
+
+
+  }
+
+
   return (
     <div className='homepage'>
       <div className='homepage-content-limiter'>
+        <button onClick={handleCheckout}>Checkout</button>
         <Hero/>
         <ProductCatalog/>
         <ProductStory/>
