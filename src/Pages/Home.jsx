@@ -28,7 +28,7 @@ const Home = () => {
   const handleCheckout = ()=>{
 
 
-    fetch('https:/checkout-session',{
+    fetch('http://localhost:3000/checkout-session',{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
